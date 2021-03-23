@@ -1,8 +1,10 @@
 import { useState } from 'react'
-import { ThemeProvider } from 'styled-components'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+// Pages
 import Home from 'components/pages/Home'
 import Login from 'components/pages/Login'
+// Themes
+import { ThemeProvider } from 'styled-components'
 import GlobalStyle from 'themes/global'
 import LightTheme from 'themes/light'
 import DarkTheme from 'themes/dark'
